@@ -6,14 +6,14 @@ echo -e ""
 echo -e "\033[96;1m============================\033[0m"
 echo -e "\033[93;1m      INPUT SUBDOMAIN"
 echo -e "\033[96;1m============================\033[0m"
-echo -e "\033[91;1m Note. contoh Subdomain :\033[0m \033[93mboh22 \033[0m"
+echo -e "\033[91;1m Note. contoh Subdomain :\033[0m \033[93mbodoh22 \033[0m"
 echo -e " "
 read -p "SUBDOMAIN :  " SUB
 echo -e ""
-DO="sgdopremium.my.id"
+DO="queenstore2.my.id"
 SUB_DOMAIN=${SUB}.${DO}
 NS_DOMAIN=*.${SUB_DOMAIN}
-CF_KEY=1RR-isOgvuFPU967ant_D4ZZLCWvExjiyQxe1iGz
+CF_KEY=da9CmYelkRgrrEOpcPUF3ESNYdssM1tYD5spUVrO
 set -euo pipefail
 echo "Pointing Domain for $SUB_DOMAIN..."
 ZONE=$(
